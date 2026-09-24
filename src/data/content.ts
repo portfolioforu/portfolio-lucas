@@ -1,12 +1,13 @@
 export const profile = {
   name: 'Lucas Llinares-Cruz',
-  role: 'Électrotechnique — recherche d\'apprentissage',
+  role: 'BTS Électrotechnique — recherche d\'apprentissage',
   tagline:
     "Je comprends comment les choses fonctionnent en les démontant — aujourd'hui je veux en faire un métier, sur le terrain.",
   location: 'Saint-André-le-Gaz, Isère',
   email: 'lucasllinares38@gmail.com',
   phone: '07 67 12 90 65',
   availability: 'Disponible dès maintenant pour une alternance',
+  cvUrl: '/CV-Lucas-Llinares-Cruz.pdf',
 }
 
 export const stats = [
@@ -17,7 +18,7 @@ export const stats = [
 
 export const about = {
   paragraphs: [
-    "Après deux ans de licence en langues appliquées anglais-espagnol, j'ai choisi de reprendre à zéro pour aller vers ce qui m'attire vraiment : comprendre comment les choses fonctionnent, et les réparer de mes mains. Je me forme aujourd'hui au Titre professionnel Électrotechnique.",
+    "Après deux ans de licence en langues appliquées anglais-espagnol, j'ai choisi de reprendre à zéro pour aller vers ce qui m'attire vraiment : comprendre comment les choses fonctionnent, et les réparer de mes mains. Mon objectif est le BTS Électrotechnique, via un Titre professionnel de mise à niveau préalable.",
     "Ce qui m'intéresse dans ce métier, c'est le mélange de rigueur technique et de travail concret : lire un schéma, comprendre une installation, intervenir sur du matériel réel, en milieu industriel comme chez un particulier.",
     "Voyages, cinéma, codage et conception 3D, jeux vidéo : je m'essaie à beaucoup de choses différentes. J'aime autant apprendre par la pratique que par la théorie, et je fais facilement face à des situations nouvelles.",
   ],
@@ -30,9 +31,9 @@ export const experience = [
   {
     period: 'Recherche en cours',
     title: 'Apprenti électrotechnicien',
-    org: 'Titre professionnel Électrotechnique',
+    org: 'Titre professionnel Électrotechnique (mise à niveau vers le BTS)',
     description:
-      "En recherche active d'une entreprise pour démarrer une formation en apprentissage. Je veux transformer une appétence pour la technique en compétences concrètes, directement sur le terrain.",
+      "En recherche active d'une entreprise pour démarrer une formation en apprentissage. Objectif : le BTS Électrotechnique, via ce titre professionnel de mise à niveau préalable. Je veux transformer une appétence pour la technique en compétences concrètes, directement sur le terrain.",
     skillsGained: ['Motivation confirmée', 'Autonomie', "Capacité d'analyse"],
   },
   {
@@ -135,7 +136,7 @@ export const projects = [
 
 export const contact = {
   heading: 'On construit quelque chose ensemble ?',
-  body: "Je recherche une entreprise pour m'accueillir en apprentissage sur le Titre professionnel Électrotechnique. Sérieux, motivé et disponible rapidement.",
+  body: "Je recherche une entreprise pour m'accueillir en apprentissage sur le Titre professionnel Électrotechnique, en vue d'un BTS Électrotechnique. Sérieux, motivé et disponible rapidement.",
   availabilityNote:
     'Disponible dès maintenant, basé à Saint-André-le-Gaz (38) — mobile sur le secteur Lyon / Grenoble / Nord-Isère.',
   social: [] as { label: string; handle: string; url: string }[],
@@ -143,7 +144,7 @@ export const contact = {
     {
       question: 'Quel type de contrat recherches-tu ?',
       answer:
-        "Un contrat d'apprentissage pour préparer le Titre professionnel Électrotechnique, à partir de la prochaine rentrée.",
+        "Un contrat d'apprentissage pour préparer le Titre professionnel Électrotechnique, en vue d'un BTS Électrotechnique, à partir de la prochaine rentrée.",
     },
     {
       question: 'Es-tu mobile ?',

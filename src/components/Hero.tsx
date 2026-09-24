@@ -1,5 +1,5 @@
 import { motion, type Variants } from 'framer-motion'
-import { ArrowDown, MapPin, Sparkles } from 'lucide-react'
+import { ArrowDown, Download, MapPin, Sparkles } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { profile } from '../data/content'
 
@@ -77,6 +77,14 @@ export default function Hero() {
           >
             Me contacter
           </Link>
+          <a
+            href={profile.cvUrl}
+            download
+            className="inline-flex items-center gap-2 rounded-full border border-line px-7 py-3 text-base font-medium text-ink transition-colors hover:border-coral hover:text-coral"
+          >
+            <Download className="h-4 w-4" />
+            Télécharger mon CV
+          </a>
         </motion.div>
       </motion.div>
 
