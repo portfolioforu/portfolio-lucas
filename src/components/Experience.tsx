@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-import { ArrowUpRight, Award } from 'lucide-react'
+import { ArrowUpRight, Award, Download } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import { certifications, experience, experienceIntro } from '../data/content'
+import { certifications, experience, experienceIntro, profile } from '../data/content'
 import Reveal from './Reveal'
 import SectionHeading from './SectionHeading'
 
@@ -13,6 +13,17 @@ export default function Experience() {
 
         <Reveal delay={0.04} className="mt-6">
           <p className="max-w-2xl text-lg leading-relaxed text-ink-soft">{experienceIntro}</p>
+        </Reveal>
+
+        <Reveal delay={0.05} className="mt-6">
+          <a
+            href={profile.cvUrl}
+            download
+            className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:border-coral hover:text-coral"
+          >
+            <Download className="h-4 w-4" />
+            Télécharger mon CV
+          </a>
         </Reveal>
 
         <div className="relative mt-14 space-y-10 border-l border-line pl-8">

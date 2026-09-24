@@ -62,15 +62,16 @@ export const experience = [
   },
   {
     period: '2021 — 2024',
-    title: 'Baccalauréat STI2D',
+    title: 'Baccalauréat STI2D — obtenu',
     org: 'Lycée Saint-Marc — Nivolas-Vermelle (38)',
     description:
-      "Bac technologique orienté sciences et techniques de l'industrie — première approche de l'électronique, avec la conception d'un prototype de thermostat connecté.",
+      "Bac technologique orienté sciences et techniques de l'industrie, obtenu en 2024 — première approche de l'électronique, avec la conception d'un prototype de thermostat connecté.",
     skillsGained: ["Bases en électronique", 'Codage & conception 3D', 'Travail de projet'],
   },
 ]
 
 export const certifications = [
+  { name: 'Baccalauréat STI2D (obtenu)', org: 'Lycée Saint-Marc — Nivolas-Vermelle', year: '2024' },
   { name: "Brevet d'Initiation Aéronautique (BIA)", org: 'Éducation nationale', year: '' },
 ]
 
