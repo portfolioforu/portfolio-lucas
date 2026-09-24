@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Space Grotesk', -apple-system, sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+
+  --color-cream: #14171c;
+  --color-cream-dim: #1b1f26;
+  --color-panel: #20242c;
+  --color-ink: #f2f4f6;
+  --color-ink-soft: #aab2bd;
+  --color-ink-faint: #707986;
+  --color-coral: #f2a33d;
+  --color-coral-dim: #3a2a12;
+  --color-coral-deep: #ffcf85;
+  --color-line: #2a2f38;
+  --pfu-ref: 'NW9J94';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Texte plus grand sur mobile pour rester lisible */
+@media (max-width: 640px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: var(--pfu-ref);
+  display: none;
+}
+
+::selection {
+  background: var(--color-coral);
+  color: var(--color-cream);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+}
+.animate-float-slow {
+  animation: float-slow 7s ease-in-out infinite;
+}
